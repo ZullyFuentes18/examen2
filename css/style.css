@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+body{
+	font-family: Catamaran;
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+	--color-contenido:#898989; 
+	--color-texto:#c3c3c3;
+		
+}
+header{
+	background-color: #fff;
+}
+
+.titulo{
+text-align: center;
+color: var (--color-negro);
+padding: 20px;
+font-size: 45px;
+font-weight: bold;
+	
+}
+
+#hero-slides h1{
+	color: #FFFFFF;
+	font-size: 95px;
+	
+}
+#hero-slides h4{
+	
+	color: #FFFFFF;
+	font-size: 45px;
+	
+}
+
+#Conferences{
+	text-align: center;
+}
+#Conferences h2{
+	font-size: 15px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: var (--color-negro);
+	text-transform: uppercase;
+	
+}
+#Conferences h3{
+	font-size: 16px;
+	color: (--color-contenido);
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 35px;
+}
+#Conferences p{
+	justify-content: center;
+}
+#speaker p{
+	color: var (--color-negro); 	
+}
+
+#speaker h6{
+	color: var (--color-negro);
+	padding-top: 20px;
+}
+
+#speaker h4{
+	color: var (--color-negro);
+	padding: 30px;
+	font-size: 40px;
+}
+	
+#speaker p{
+	padding-bottom: 30px;
+}
+
+#speaker{
+	padding: 70px;
+	text-align: center;
+}
+	
+#speaker h7{
+	color: var (--color-negro);
+}
+
+#Meetings h2{
+	color: var(--color-texto);
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 20px;
+}
+
+#Meetings p{
+	font-weight: 300;
+	color:#FFFFFF;
+	font-size: 12px;
+}
+
+#Meetings i{
+	font-size: 40px;
+	line-height: 70px;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#Meetings{
+	background-color: #282d33;
+	padding-top: 100px;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 150px;
+}
+
+#Meetings h3{
+	color:#FFFFFF;
+	font-size: 14px;
+}
+
+#Sponsors img{
+	padding-bottom: 50px;
+}
+
+#Sponsors{
+	
+	padding: 20px;
+	text-align: center;
+}
+#Sponsors h2{
+    color: var(--color-texto);
+	padding: 30px;
+	font-size: 40px;
+}
+
+#Sponsors p{
+	
+	padding-bottom: 30px;
+
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
